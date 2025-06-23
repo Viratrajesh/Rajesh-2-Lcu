@@ -29,7 +29,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002560313401'))
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002714383718'))
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002560313401'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002289263173'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002737733323')) 
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002737733323'))
