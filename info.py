@@ -67,7 +67,7 @@ SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'krownlinks.con')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "5d9250c00801b067d7f83bfe54c4fba484505447")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'krownlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "21600"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 
 # Language & Quality & Season & Year
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
