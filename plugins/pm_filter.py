@@ -807,8 +807,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data='help'),
                 InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
 		],[
-                InlineKeyboardButton('• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •', callback_data='earn')
-	        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_media(
             media=InputMediaPhoto(
@@ -854,20 +852,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "earn":
-        buttons = [[
-            InlineKeyboardButton('♻️ ᴀʟʟ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ ᴅᴇᴛᴀɪʟꜱ ♻️', callback_data='earn2')
-        ],[
-            InlineKeyboardButton('⪻ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')            
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-             text=script.EARN_TEXT.format(temp.B_LINK),
-             reply_markup=reply_markup,
-             disable_web_page_preview=True,
-             parse_mode=enums.ParseMode.HTML
-	)
-	    
     elif query.data == "seeplans":
         btn = [[
             InlineKeyboardButton('🍁 ᴄʜᴇᴄᴋ ᴀʟʟ ᴘʟᴀɴꜱ & ᴘʀɪᴄᴇꜱ 🍁', callback_data='free')
@@ -1007,24 +991,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML 
 	    )
-    elif query.data == "earn2":
-       buttons = [[
-	      InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://telegram.dog/{temp.U_NAME}?startgroup=start')
-       ],[
-              InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='help')
-       ]]
-       reply_markup = InlineKeyboardMarkup(buttons)
-       await client.edit_message_media(
-          chat_id=query.message.chat.id,
-          message_id=query.message.id,
-          media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
-            caption=script.GROUP_TEXT.format(temp.B_LINK),
-            parse_mode=enums.ParseMode.HTML
-        ),
-        reply_markup=reply_markup
-    )
-   
+    
     elif query.data == "telegraph":
         buttons = [[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='special')
