@@ -111,7 +111,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://www.askmovies.workers.dev.koyeb.app")
+URL = environ.get("FQDN", "https://www.askmovies.workers.dev")
 
 # Commands
 admin_cmds = [
