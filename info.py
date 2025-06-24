@@ -111,7 +111,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://t.me/MTGxStreamBot")
+URL = environ.get("FQDN", "https://t.me/MTGxStreamBot.koyeb.app")
 
 # Commands
 admin_cmds = [
