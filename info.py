@@ -35,12 +35,12 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002737733323'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002737733323'))
 
 # MongoDB 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rajesh:Rajeah@rajesh.4m2jrxj.mongodb.net/?retryWrites=true&w=majority&appName=Rajesh")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajesh")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rajesh17:<Rajesh17x>@cluster0.elblpo5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Rajesh17")
 
 # Files index database url
-FILES_DATABASE = environ.get('FILES_DATABASE', "mongodb+srv://Rajeah:Rajeah@rajesh2.2oma8nb.mongodb.net/?retryWrites=true&w=majority&appName=Rajesh2")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Rajesh2')
+FILES_DATABASE = environ.get('FILES_DATABASE', "mongodb+srv://Rajesh18:Rajesh18x@cluster0.elblpo5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Rajesh18')
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002844979596'))
