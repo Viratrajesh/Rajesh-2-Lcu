@@ -76,11 +76,11 @@ YEARS = [f'{i}' for i in range(2025, 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 10)]
 
 # Pictures And Reaction
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/hPp.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/dc8d94be0c5b2c9693e75-707e6fdfb7fc8d3e2c.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/4dee4c7b04950e81fd27d-93587842dbf4b1f776.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/hwh.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/hw2.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/70d6683aab0aaedc01973-acad0c1612c516f68a.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/8aa11957d2ff2f0199254-909aa6fcf8cd119f63.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
 
