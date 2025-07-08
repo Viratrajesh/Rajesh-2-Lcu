@@ -93,7 +93,7 @@ MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 IMDB = is_enabled('IMDB', False)
-FILE_CAPTION = "📁 <b>{file_name}</b>\n \n\n⚡ ɢʀᴏᴜᴘ    ➧ @AskMovieslink   ᴄʜᴀɴɴᴇʟ ➧ @AskMovies4"
+FILE_CAPTION = "📁 <b>{file_name}</b>\n \n\n </b>⚡ ɢʀᴏᴜᴘ    ➧ @AskMovieslink \nᴄʜᴀɴɴᴇʟ ➧ @AskMovies4</b>"
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
@@ -111,7 +111,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://supposed-teri-createtelegrambot-3f5fe6a0.koyeb.app/")
+URL = environ.get("FQDN", "")
 
 # Commands
 admin_cmds = [
