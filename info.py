@@ -95,7 +95,7 @@ DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 IMDB = is_enabled('IMDB', False)
 FILE_CAPTION = """<b>🎬 <a href="https://t.me/Askmovieslink1">{file_name}</a></b>  
 
-📤 Uploaded by: @AskMovies4"""
+❤️Jᴏɪɴ »  @Askmovies4🥂"""
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
